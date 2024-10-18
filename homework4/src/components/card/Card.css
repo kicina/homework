@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.card{
+    border: 2px solid black;
+    width: 300px;
+    border-radius: 10px;
+  }
+
+
+.black{
+    *{
+        background-color: black;
+    }
+    h1{
+        color: white;
+    }
+    p{
+        color: white;
+    }
+    button{
+        color: white;
+    }
+    .card{
+        border: 2px solid white;
+        width: 300px;
+        border-radius: 10px;
+      }
+}
+
+.white{
+    *{
+        background-color: white;
+    }
+    h1{
+        color: black;
+    }
+    p{
+        color: black;
+    }
+    button{
+        color: black;
+    }
+    .card{
+        border: 2px solid black;
+        width: 300px;
+        border-radius: 10px;
+      }
+}
